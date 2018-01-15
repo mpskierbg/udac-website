@@ -75,11 +75,13 @@ center {
 }
 #centered-1 {
   position: absolute;
-  top: 5%;
+  top: 30%;
   left: 50%;
   transform: translate(-50%, -50%);
   font-size: 130px;
   color:  #4d4d4d;
+  padding: 10px;
+  margin: 0;
 }
 
 #centered-1p {
@@ -89,6 +91,7 @@ center {
   transform: translate(-50%, -50%);
   font-size: 70px;
   color: #ffffff;
+
 }
 
 .social {
@@ -129,4 +132,47 @@ footer.second p {
   padding: 5px 0 9px 0;
   text-align: center;
 
+}
+
+@media (min-width: 950px) {
+  .three-1 {
+    display: inline-block;
+    width: 33.3333%;
+    height: 200px;
+    margin: 0;
+  }
+  .three {
+    display: inline;
+    margin: auto;
+  }
+  #logo {
+    width: 10%;
+  }
+
+  .desktop {
+    width:80%;
+    margin: auto;
+  }
+
+  .social i {
+    margin:0;
+  }
+  footer {
+    width: 80%;
+    margin: auto;
+  }
+  .second {
+    width: 100%;
+  }
+
+  #centered-1 {
+
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 130px;
+    color:  #4d4d4d;
+    padding: 10px;
+    margin: 0;
+  }
 }
