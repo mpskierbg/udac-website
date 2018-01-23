@@ -1,0 +1,294 @@
+@import 'https://fonts.googleapis.com/css?family=Ubuntu';
+
+  body {
+    width: 100%;
+    font-family: 'Ubuntu', sans-serif;
+    margin: 0;
+    color: #67727A;
+    padding: 0;
+    background-color: #e6e6e6;
+  }
+
+  header {
+    width: 100%;
+    border-bottom: 20px solid #6991AC;
+    display: block;
+    margin: 0;
+    overflow: hidden;
+  }
+
+  #logo {
+    width: 20%;
+    height: 100%;
+    margin: auto;
+    float: left;
+  }
+
+  div.major {
+    display: block;
+    float: right;
+  }
+
+  h1 {
+    margin: 10px;
+    font-size: 50px;
+  }
+
+  div.minor {
+    display: inline-block;
+    float: right;
+    clear: right;
+  }
+
+  a {
+    text-decoration: none;
+    color:  #4d4d4d;
+  }
+
+  h4 {
+    font-size: 30px;
+    margin: 10px;
+  }
+
+  #main {
+    border-bottom: 20px solid #6991AC;
+  }
+
+  #main-img {
+    width: 100%;
+    height: auto;
+  }
+
+  center {
+    font-size: 50px;
+  }
+
+  .three {
+    width: 100%;
+    height: 400px;
+    margin-bottom: 10px;
+  }
+
+  .three-1 {
+    position: relative;
+    text-align: center;
+  }
+
+  #centered-1 {
+    font-size: 75px;
+    margin: 0;
+  }
+
+  #centered-1p {
+    font-size: 40px;
+    margin: 0;
+  }
+
+  .social {
+    list-style-type: none;
+    text-align: center;
+  }
+
+  .social li {
+    display: inline;
+  }
+
+  .social i {
+    font-size: 300%;
+    margin: 1%;
+    padding: 2%;
+    color: #ced7df;
+  }
+
+  .social i:hover {
+    color: #f5f5f5;
+  }
+
+  footer {
+    background-color: #6991AC;
+    width: 100%;
+  }
+
+  footer.second {
+    border-top: 1px solid #ffffff;
+    border-bottom: 1px solid #ffffff;
+    max-height: 55px;
+    margin: 0;
+    background-color: #6991AC;
+    font-family: 'Ubuntu';
+    color: #ffffff;
+  }
+
+  footer.second p {
+    padding: 5px 0 9px 0;
+    text-align: center;
+  }
+
+@media (min-width: 1501px) {
+  .three-1 {
+    width: 31%;
+    margin: auto;
+  }
+
+  .three {
+    display: inline;
+    margin: auto;
+  }
+
+  #desktop-main {
+    width: 80%;
+    margin: auto;
+    height: auto;
+    display: flex;
+  }
+
+  #bigsmall {
+    width: 80%;
+    margin: auto;
+  }
+
+  #desktop-header,
+  #desktop-main-img {
+    width: 80%;
+    margin: auto;
+  }
+
+  .social i {
+    margin: 0;
+  }
+
+  #logo {
+    width: 15%;
+    height: 75%;
+  }
+
+  #centered-1 {
+    position: relative;
+    margin-top: 0px;
+    font-size: 40px;
+  }
+
+  #centered-1p {
+    position: relative;
+    color: blue;
+    margin: 0;
+    font-size: 15px;
+  }
+
+  h1 {
+    font-size: 80px;
+    margin-top: 30px;
+  }
+
+  h4 {
+    font-size: 35px;
+    margin-bottom: 15px;
+  }
+
+}
+
+@media (min-width: 770px) and (max-width: 1500px) {
+  .three-1 {
+    width: 31%;
+    margin: auto;
+  }
+
+  .three {
+    display: inline;
+    margin: auto;
+  }
+
+  #logo {
+    width: 15%;
+    height: 75%;
+  }
+
+  #desktop-header,
+  #desktop-main-img {
+    width: 100%;
+    margin: auto;
+  }
+
+  #desktop-main {
+    width:100%;
+    margin: auto;
+    height: auto;
+    display: flex;
+  }
+
+  .social i {
+    margin:0;
+  }
+
+  .second {
+    width: 100%;
+  }
+
+  #centered-1 {
+    position: relative;
+    margin-top: 0px;
+    font-size: 40px;
+  }
+
+  #centered-1p {
+    position: relative;
+    color: blue;
+    margin: 0;
+    font-size: 15px;
+  }
+
+}
+
+@media (min-width: 451px) and (max-width: 769px) {
+  #centered-1 {
+    position: relative;
+    margin-top: 0px;
+    font-size: 60px;
+  }
+
+  #centered-1p {
+    position: relative;
+    color: #4d4d4d;
+    margin: 0;
+    font-size: 15px;
+    margin-bottom: 15px;
+  }
+
+}
+
+@media (max-width: 450px) {
+
+  h1 {
+    font-size: 25px;
+    margin-top: 15px;
+  }
+
+  h4 {
+    font-size: 15px;
+    margin-bottom: 15px;
+  }
+
+  #logo {
+    margin-top: 15px;
+  }
+
+  .three{
+    height: 200px;
+  }
+
+  #centered-1 {
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 50px;
+    color: #ffffff;
+    padding: 10px;
+    margin: 0;
+  }
+
+  #centered-1p {
+    display: none;
+  }
+
+}
